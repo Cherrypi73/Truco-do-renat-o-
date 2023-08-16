@@ -19,3 +19,6 @@ header{
     display:grid;
     grid-template-columns: 400px 900px;
 }
+.container{
+    text-align: center;
+}

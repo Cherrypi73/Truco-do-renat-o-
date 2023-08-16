@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" rel="stylesheet">
- <script src="/truco/js/analise.js"></script>
+
 </head>
 <body>
     <header>
@@ -18,39 +18,29 @@
     <img src="./IMAGES/logo.png"  width="140px" >
         <h1>Calculadora de pontos</h1>
 </header>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Pontuação de Truco</title>
-</head>
-<body>
-  <div class="container">
-    <h1>Pontuação de Truco</h1>
-    <div class="team">
-      <h2>Equipe 1</h2>
-      <span class="score" id="team1Score">0</span>
-      <button class="scoreButton" onclick="addPoints('team1', 1)">+1</button>
-      <button class="scoreButton" onclick="addPoints('team1', 3)">+3</button>
-      <button class="scoreButton" onclick="addPoints('team1', 6)">+6</button>
-      <button class="scoreButton" onclick="addPoints('team1', 12)">+12</button>
-    </div>
-    <div class="team">
-      <h2>Equipe 2</h2>
-      <span class="score" id="team2Score">0</span>
-      <button class="scoreButton" onclick="addPoints('team2', 1)">+1</button>
-      <button class="scoreButton" onclick="addPoints('team2', 3)">+3</button>
-      <button class="scoreButton" onclick="addPoints('team2', 6)">+6</button>
-      <button class="scoreButton" onclick="addPoints('team2', 12)">+12</button>
-    </div>
+<div class="container">
+   <h2> Pontuador de Truco</h2>
+   <div class="team">
+  <p >Equipe Super Shy</p>
+  <span class="pont" id="team1point">0</span>
+    <button class="button" onclick="updatepoint('team1', 1)">+1</button>
+    <button class="Button" onclick="updatepoint('team1', 3)">+3</button>
+    <button class="Button" onclick="updatepoint('team1', 6)">+6</button>
+    <button class="Button" onclick="updatepoint('team1', 12)">+12</button>
   </div>
-  <script src="script.js"></script>
-</body>
-</html>
-
-
-   
+ <div class="team">
+    
+    <p >Equipe Get up</p>
+    <span class="pont" id="team2point">0</span>
+    <button class="Button" onclick="updatepoint('team2', 1)">+1</button>
+    <button class="Button" onclick="updatepoint('team2', 3)">+3</button>
+    <button class="Button" onclick="updatepoint('team2', 6)">+6</button>
+    <button class="Button" onclick="updatepoint('team2', 12)">+12</button>
+     
+ </div>
+ <span id="vitoria"></span>
+</div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
@@ -20,14 +21,25 @@
 <div class="container">
    <h2> Pontuador de Truco</h2>
    <div class="team">
-    <p class="point" id="teamOne">0</p>
-    <button class="scoreButton" onclick="updatepoint('team1', 1)">+1</button>
-    <button class="scoreButton" onclick="updatepoint('team1', 3)">+3</button>
-    <button class="scoreButton" onclick="updatepoint('team1', 6)">+6</button>
-    <button class="scoreButton" onclick="updatepoint('team1', 12)">+12</button>
-  </div>
+     
 
+    <p >Equipe Super Shy</p>
+    <button class="button" onclick="updatepoint('team1', 1)">+1</button>
+    <button class="Button" onclick="updatepoint('team1', 3)">+3</button>
+    <button class="Button" onclick="updatepoint('team1', 6)">+6</button>
+    <button class="Button" onclick="updatepoint('team1', 12)">+12</button>
+  </div>
+ <div class="team">
+    
+    <p >Equipe Get up</p>
+    <button class="Button" onclick="updatepoint('team2', 1)">+1</button>
+    <button class="Button" onclick="updatepoint('team2', 3)">+3</button>
+    <button class="Button" onclick="updatepoint('team2', 6)">+6</button>
+    <button class="Button" onclick="updatepoint('team2', 12)">+12</button>
+
+ </div>
 </div>
     </div>
+    <script src="/truco/js/analise.js"></script>
 </body>
 </html>

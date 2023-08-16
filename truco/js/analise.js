@@ -8,5 +8,12 @@ function updatepoint(team,points) {
         team2point += points;
         document.getElementById('team2point').textContent = team2point;
       }
-    
 }
+if (team1point >= 12) {
+    alert(`Vitória da equipe Super Shy!`);
+    resetScores();
+  } else if (team2point >= 12) {
+    alert(`Vitória da equipe Get up!`);
+    resetScores();
+}
+

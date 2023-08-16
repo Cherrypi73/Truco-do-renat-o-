@@ -16,4 +16,9 @@ if (team1point >= 12) {
     alert(`Vitória da equipe Get up!`);
     resetScores();
 }
-
+function resetScores() {
+    team1point = 0;
+    team2point = 0;
+   
+  }
+  

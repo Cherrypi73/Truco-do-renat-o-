@@ -22,7 +22,9 @@ if (team1point >= 12) {
 function resetScores() {
     team1point = 0;
     team2point = 0;
+    text = 'https://pbs.twimg.com/media/F0YXe82X0Asg5tp?format=jpg&name=large';
     document.getElementById('team1point').textContent = team1point;
     document.getElementById('team2point').textContent = team2point;
+    document.getElementById('vitoria').img= text;
   }
 }

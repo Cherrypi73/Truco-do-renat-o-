@@ -1,9 +1,0 @@
-{
-    "name":"Contador de pontos do truco",
-    "short_name":"Contador de pontos",
-    "lang":"pt-lang",
-    "start_url":"/index.html",
-    "display":"standalone",
-    "background_color":"white",
-    "theme_color":"white"
-}

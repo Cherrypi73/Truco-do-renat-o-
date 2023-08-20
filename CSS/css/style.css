@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+background-color: #89c97b;
+color: white;
+font-size: 15px;
+-webkit-text-stroke: 1.4px black;
+text-shadow: 3px 3px 3px  black;
+padding: 10px;
+font-family: 'Caprasimo', cursive;
+font-weight: 100;
+margin-top: -10px;
+  
+}
+.nav-bar{
+    display:grid;
+    grid-template-columns: auto auto;
+}
+.container{
+    text-align: center;
+    display:grid;
+    grid-template-columns: auto auto;
+}
+.team-1{
+    display:grid;
+    grid-template-rows: auto auto;
+    background-color: #eb6b6f;
+    padding: 10px;
+   
+    text-align: center;
+}
+.team-2{
+    display:grid;
+    grid-template-rows: auto auto;
+   background-color: #91dbff;
+}
+.team-button{
+    display:grid;
+    grid-template-columns: auto auto ;
+ gap: 5px;
+   
+}
+button{
+    display: inline-block;
+    padding: 10px 20px;
+    width: 90px;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.Button1{
+background-color: #fbee63;
+}
+.Button3{
+    background-color: #1a8ec7;
+
+}
+.Button2{
+    background-color: #d82d3b;
+
+}
+.Button4{
+    background-color: #46b72f;
+}
+

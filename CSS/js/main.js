@@ -38,7 +38,7 @@ function updatepoint(team,points) {
         wins2++;
         showWinner("Equipe 2");
         checkWin()
-        resetScores();
+ resetScores();
       }
     }
     function updateScoreWin() {
